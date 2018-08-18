@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<title>Makler CRM</title>
+</head>
+<body class="body">
+	
+	<header class="header header-project">	  	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-md-3">
+					<p class="mail">
+						<img src="img/envelope.png" alt="" class="mail-img">
+						support@maklercrm.ru 
+					</p>
+				</div>
+				<div class="col-xs-0 col-md-7"></div>
+				<div class="col-xs-6 col-md-2">
+					<a href="tel:+74999260951" class="phone">
+						<img src="img/phone-call.png" alt="" class="phone-img">
+						+7(499) 926 09 51 
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="line-gray-t"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-md-3 col-lg-3">
+					<a href="index.html" class="logo">	
+						<img src="img/logo.png" alt="Makler" class="logo-img">
+					</a>
+				</div>
+				<div class="col-xs-4 col-md-0 col-lg-1">
+					<div class="burger-block">
+						<span class="burger"></span>
+						<span class="burger"></span>
+						<span class="burger"></span>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-9 col-lg-8">					
+					<div class="menu-m">		
+							<a href="input.html" class="login__link login__link-input">
+								Войти
+							</a>
+							<a href="#" class="login__link login__link-free" data-toggle="modal" data-target="#Mymodal1">
+								Пробная версия
+							</a>						
+							<a href="#" class="menu-m_close">
+								<img src="img/close.png" alt="" class="menu-m_close-img">
+							</a>
+							
+						<nav id="menu-m">
+							<ul class="menu-mobile">
+								<li class="menu__item">
+									<a href="index.html#ex11" class="menu__link">
+										О компании
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="index.html#ex2" class="menu__link">
+										Услуги
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="index.html#ex3" class="menu__link">
+										Кейсы
+									</a>
+								</li>
+								<!-- <li class="menu__item menu__item-swipe-m">
+									<a href="#ex4" class="menu__link">
+										Партнерам
+									</a>
+								</li>	 -->			
+							</ul>
+						</nav>
+
+						<p class="menu-mobile_text">
+							Юридический адрес  <br>
+							Москва
+						</p>
+
+						<ul class="social social-m">
+							<li class="social__item social__item-m">
+								<a href="#" class="social__link">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="social__item social__item-m">
+								<a href="#" class="social__link">
+									<i class="fab fa-vk"></i>
+								</a>
+							</li>							
+							<li class="social__item social__item-m">
+								<a href="#" class="social__link">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+						<p class="menu-mobile_text2">
+							ООО МАКЛЕР ИНН 7729492434. <br>
+							Разработано в MAKLER Fitness consulting 
+						</p>
+					</div>
+					<nav id="menu">
+						<ul class="menu menu-d menu-desktop">
+							<li class="menu__item">
+								<a href="index.html" class="menu__link">
+									О компании
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="services.html" class="menu__link">
+									Услуги
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="project.html" class="menu__link">
+									Кейсы
+								</a>
+							</li>
+							<!-- <li class="menu__item menu__item-swipe">
+								<a href="#ex4" class="menu__link">
+									Партнерам
+								</a>
+							</li>		 -->			
+							<li class="login__item">
+								<a href="input.html" class="login__link login__link-input">
+									Войти
+								</a>
+							</li>
+							<li class="login__item">
+								<a href="#" class="login__link login__link-free" data-toggle="modal" data-target="#Mymodal1">
+									Пробная версия
+								</a>
+							</li>
+					</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="project-menu hidden-lg hidden-md">
+						<li class="project-menu_item">
+							<a href="#" class="project-menu_item-prev">
+								<img src="img/arrows-left.png" alt="">
+							</a>
+						</li>
+						<li class="project-menu_item">
+							<a href="#" class="project-menu_link project-menu_link1">
+								Все проекты
+							</a>
+						</li>
+						<li class="project-menu_item">
+							<a href="#" class="project-menu_link project-menu_link2">
+								Генератор клиентов
+							</a>
+						</li>
+					</ul>
+					<h2 class="project-title">
+						<span>Проект</span><br>
+						Сеть клубов Фитнес Гуру
+					</h2>
+					<h2 class="project-title">
+						<span>Тип услуги</span><br>
+						Генератор клиентов
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<section class="project-main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-lg-5 hidden-xs hidden-sm">
+				<div class="chits">
+					<a href="index.html" class="chit_link">
+						Главная
+					</a>
+					<img src="img/arrows.png" alt="" class="arrow">
+					<a href="#" class="chit_link">
+						Кейсы
+					</a>
+					<img src="img/arrows.png" alt="" class="arrow">
+					<a href="project.html" class="chit_link chit_link-active">
+						Сеть клубов Фитнес Гуру
+					</a>
+				</div>
+			</div>
+			<div class="col-md-0 col-lg-2"></div>
+			<div class="col-md-6 col-lg-5">
+				<ul class="project-menu hidden-xs hidden-sm">
+					<li class="project-menu_item">
+						<a href="#" class="project-menu_link project-menu_link1">
+							Все проекты
+						</a>
+					</li>
+					<li class="project-menu_item">
+						<a href="#" class="project-menu_link project-menu_link2">
+							Генератор клиентов
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1">
+				<a href="#" class="arrow-link arrow-link-left">
+					<i class="fas fa-long-arrow-alt-left"></i>
+				</a>
+				<a href="#" class="arrow-link arrow-link-right hidden-lg hidden-md">
+					<i class="fas fa-long-arrow-alt-right"></i>
+				</a>
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-6">
+				<div class="club-item">
+					<div class="row">
+						<div class="col-xs-4">
+							<img src="img/fg.jpg" alt="" class="club-item-img">
+						</div>
+						<div class="col-xs-8">
+							<h3 class="club-item_title">
+								Сеть клубов Фитнес Гуру
+							</h3>
+							<p class="club-item_desc">
+								<img src="img/metro.png" alt="">
+								Алма-Атинская
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+			<div class="col-md-1">
+				<a href="#" class="arrow-link hidden-xs hidden-sm">
+					<i class="fas fa-long-arrow-alt-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p class="project-date">
+					Апрель 2018
+				</p>
+				<p class="project-resault">
+					Результат работы с MAKLER
+				</p>
+				<div class="project-line-gray"></div>				
+				<div class="chart-block-project hidden-xs">
+					<img src="img/project-chart.jpg" alt="" class="project-chart">
+				</div>
+				<div class="chart-block-project hidden-sm hidden-md hidden-lg">
+					<img src="img/chart1-m.png" alt="" class="project-chart">
+					<ul class="chart-block-project_list">
+						<li class="chart-block-project_item">
+							<span class="chart-block-project_item-number">1</span>
+							<span class="chart-block-project_item-span">Точка А</span>
+							Большой % отказов
+						</li>
+						<li class="chart-block-project_item">
+							<span class="chart-block-project_item-number">2</span>							
+							Анализ показателей 
+						</li>
+						<li class="chart-block-project_item">
+							<span class="chart-block-project_item-number chart-block-project_item-number3">3</span>							
+							<p class="chart-block-project_item_p">Запуск рекламной компании за 8 часов</p>
+						</li>
+						<li class="chart-block-project_item">
+							<span class="chart-block-project_item-number">4</span>							
+							Установка MAKLER CRM
+						</li>
+						<li class="chart-block-project_item">
+							<span class="chart-block-project_item-number">5</span>
+							<span class="chart-block-project_item-span">Точка Makler</span>
+							ROI 84.71%
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="project-block">
+					<h3 class="project-block_title">
+						Как это было
+					</h3>
+					<p class="project-block_text">
+						Команда MAKLER проанализировала данные по заявкам и покупкам с января по март 2018.  Данные находились системе сквозной аналитики Roistat, анализировались следующие показатели:
+					</p>
+					<p class="project-block_list">
+						- Количество заявок <br>
+						- Количество сделок <br>
+						- Цикл сделки <br>
+						- Процент конверсии <br>
+						- Сумма продаж 
+					</p>
+					<p class="project-block_text">
+						Получив данные по анализу, креативный отдел и отдел маркетинга  разработал  специальную промо-карту <span>«7 дней фитнеса».</span>
+						<span>Целью промо-карты</span> являлось более качественное изучение услуг потенциальным клиентом фитнес-клуба, который находится в 5 минутах от станции метро «Алма-Атинская» в спальном районе Братеево.
+					</p>
+					<p class="project-block_text">
+						<span>Каналом рекламы выбран Facebook и  Instagram.</span>
+					</p>
+					<p class="project-block_text">
+						Дизайнером разработаны фото-креативы для показов рекламы в новостной ленте Facebook и  Instagram, а так же сторис Instagram. 
+						На конструкторе сайтов MAKLER  разработан продающий Landing page с формой захвата интегрированной с MAKLER CRM. 
+					</p>
+					<p class="project-block_text">
+						Все полученные заявки попадали в CRM систему моментально. 
+					</p>
+					<p class="project-block_text">
+						На реализацию проекта, без учета анализа, учитывая готовые и удобные платформы MAKLER было потрачено всего лишь 8 часов рабочего времени. 
+					</p>
+					<h3 class="project-block_title">
+						Цифры не врут
+					</h3>
+					<div class="row counts" id="counts">
+						<div class="col-xs-6 col-md-3">
+							<div class="statistic-block">
+								<h4 class="statistic-block_title spincrement">
+									257
+								</h4>
+								<p class="statistic-block_desc">
+									Получено
+									заявок
+								</p>
+							</div>
+						</div>
+						<div class="col-xs-6 col-md-3">
+							<div class="statistic-block">
+								<h4 class="statistic-block_title spincrement">
+									66
+								</h4>
+								<p class="statistic-block_desc">
+									Забрали 
+									промо карту  
+									«7 дней фитнеса»
+								</p>
+							</div>
+						</div>
+						<div class="col-xs-6 col-md-3">
+							<div class="statistic-block">
+								<h4 class="statistic-block_title spincrement">
+									115
+								</h4>
+								<p class="statistic-block_desc">
+									Перешло 
+									в работу на май
+								</p>
+							</div>
+						</div>
+						<div class="col-xs-6 col-md-3">
+							<div class="statistic-block">
+								<h4 class="statistic-block_title spincrement">
+									11
+								</h4>
+								<p class="statistic-block_desc">
+									Количество
+									сделок
+								</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="statistic-block">
+								<h4 class="statistic-block_title">
+									<span class="spincrement">126500</span> рублей 
+								</h4>
+								<p class="statistic-block_desc statistic-block_desc2">
+									Сумма продаж 
+								</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="statistic-block">
+								<h4 class="statistic-block_title">
+									<span class="spincrement">19347</span> рублей
+								</h4>
+								<p class="statistic-block_desc statistic-block_desc2">
+									Затраты на рекламу
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="offer">
+	<div class="container">
+		<div class="col-md-12">
+			<div class="block-form">
+				<h4 class="block-form_title">
+					Повтори успех <br>
+					в своем бизнесе
+				</h4>
+				<p class="block-form_text">
+					Попробуй <span>БЕСПЛАТНО</span> в течении 20 дней
+				</p>
+				<form class="form project-form">
+					<div class="form-thank">Менеджер свяжется с вами в течении 15 минут!</div>
+					<img src="img/input1.png" alt="" class="project-form-img project-form-img1">
+					<input type="text" name="name" class="project-form_input" required="" placeholder="Ваше имя">
+					<img src="img/input2.png" alt="" class="project-form-img project-form-img2">
+					<input type="text" name="phone" class="project-form_input phone-masc" required="" placeholder="Ваш телефон">
+					<img src="img/input3.png" alt="" class="project-form-img project-form-img3">
+					<input type="email" name="email" class="project-form_input" required="" placeholder="Ваш Email">
+					<button class="project-form_btn" type="submit">Попробовать</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+	
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-lg-3">
+				<a href="#" class="logo logo_down">	
+						<img src="img/logo.png" alt="Makler" class="logo-img">
+					</a>
+			</div>
+			<div class="col-md-3 col-lg-4"></div>
+			<div class="col-md-6 col-lg-5">
+				<ul class="menu menu-down menu-desktop">
+							<li class="menu__item">
+								<a href="index.html" class="menu__link">
+									О компании
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="services.html" class="menu__link">
+									Услуги
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="project.html" class="menu__link">
+									Кейсы
+								</a>
+							</li>
+							<!-- <li class="menu__item menu__item-swipe">
+								<a href="#ex4" class="menu__link">
+									Партнерам
+								</a>
+							</li>	 -->										
+					</ul>
+			</div>
+		</div>
+	</div>
+	<div class="line-gray-t line-gray-t_footer"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<a href="#" class="config">
+					Политика конфиденциальности
+				</a>
+			</div>
+			<div class="col-md-9">
+					<div class="information-block">
+						<span class="information__icon">
+							<i class="fas fa-map-marker-alt"></i>
+						</span>
+						<p class="information__desc" style="margin-top: 10px">
+							<a href="#">
+								г. Москва, Варшавское <br> шоссе, д.1, стр. 1-2
+							</a>
+						</p>
+					</div>
+					<div class="information-block">
+						<span class="information__icon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+						<p class="information__desc information__desc-yellow">
+							<a href="#">
+								support@maklercrm.ru
+							</a>
+						</p>
+					</div>
+					<div class="information-block">
+						<span class="information__icon">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</span>
+						<p class="information__desc">
+							<a href="tel:+74999260951">
+								+7(499) 926 09 51
+							</a>
+						</p>
+					</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<ul class="social">
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>					
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<i class="fab fa-vk"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<p class="makler_decs">
+					<span>ООО МАКЛЕР ИНН 7729492434.</span> Разработано в MAKLER Fitness consulting 
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Модальное окно -->
+	<div class="modal fade bd-example-modal-md" id="Mymodal1"  tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-md">
+	    <div class="modal-content">
+	      <h2 class="modal-title">
+	      	20 БЕСПЛАТНЫХ ДНЕЙ<br>
+					ЭФФЕКТИВНОЙ РАБОТЫ
+	      </h2>	      
+	      <form class="modal_form form">
+		      <div class="form-thank thanks-block-modal">
+		      	<h4 class="thanks-block-modal_title">Спасибо</h4>
+						Менеджер свяжется с вами<br> в течении 15 минут!
+					</div>	
+					<input type="hidden" name="" value="" class="input-hidden">
+					<p class="modal-desc-input">Название проекта</p>
+					<img src="img/modal-icon0.png" alt="" class="modal-icon modal-icon0">
+	      	<input type="text" class="modal_input modal_input-down" name="name-project" placeholder="Название проекта" required="">
+	      	<img src="img/modal-icon1.png" alt="" class="modal-icon modal-icon1">
+	      	<input type="text" class="modal_input" name="name" placeholder="Ваше имя" required="">
+					<img src="img/modal-icon2.png" alt="" class="modal-icon modal-icon2">
+	      	<input type="text" class="modal_input phone-masc" name="phone" placeholder="Ваш телефон" required="">
+					<img src="img/modal-icon3.png" alt="" class="modal-icon modal-icon3">
+	      	<input type="email" class="modal_input" name="email" placeholder="Ваш Email" required="">
+					<button class="modal_btn" type="submit">Начать сейчас</button>
+	      </form>
+	    </div>
+	  </div>
+	</div>
+	
+
+	<script type="text/javascript" src="js/jQueryv3.3.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.spincrement.min.js"></script>
+	<script type="text/javascript" src="js/maskedinput.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>

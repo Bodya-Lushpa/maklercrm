@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<title>Makler CRM</title>
+</head>
+<body class="body">
+	
+	<header class="header header-services">	  	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-md-3">
+					<a href="" class="mail">
+						<img src="img/envelope.png" alt="" class="mail-img">
+						support@maklercrm.ru 
+					</a>
+				</div>
+				<div class="col-xs-0 col-md-7"></div>
+				<div class="col-xs-6 col-md-2">
+					<a href="tel:+74999260951" class="phone">
+						<img src="img/phone-call.png" alt="" class="phone-img">
+						+7(499) 926 09 51 
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="line-gray-t"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-md-3 col-lg-3">
+					<a href="index.html" class="logo">	
+						<img src="img/logo.png" alt="Makler" class="logo-img">
+					</a>
+				</div>
+				<div class="col-xs-4 col-md-0 col-lg-1">
+					<div class="burger-block">
+						<span class="burger"></span>
+						<span class="burger"></span>
+						<span class="burger"></span>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-9 col-lg-8">					
+					<div class="menu-m">		
+							<a href="input.html" class="login__link login__link-input">
+								Войти
+							</a>
+							<a href="#" class="login__link login__link-free" data-toggle="modal" data-target="#Mymodal1">
+								Пробная версия
+							</a>						
+							<a href="#" class="menu-m_close">
+								<img src="img/close.png" alt="" class="menu-m_close-img">
+							</a>
+							
+						<nav id="menu-m">
+							<ul class="menu-mobile">
+								<li class="menu__item">
+									<a href="index.html#ex11" class="menu__link">
+										О компании
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="index.html#ex2" class="menu__link">
+										Услуги
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="index.html#ex3" class="menu__link">
+										Кейсы
+									</a>
+								</li>
+								<!-- <li class="menu__item menu__item-swipe-m">
+									<a href="#ex4" class="menu__link">
+										Партнерам
+									</a>
+								</li>	 -->			
+							</ul>
+						</nav>
+
+						<p class="menu-mobile_text">
+							Юридический адрес  <br>
+							Москва
+						</p>
+
+						<ul class="social social-m">
+							<li class="social__item social__item-m">
+								<a href="#" class="social__link">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="social__item social__item-m">
+								<a href="#" class="social__link">
+									<i class="fab fa-vk"></i>
+								</a>
+							</li>							
+							<li class="social__item social__item-m">
+								<a href="#" class="social__link">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						</ul>
+						<p class="menu-mobile_text2">
+							ООО МАКЛЕР ИНН 7729492434. <br>
+							Разработано в MAKLER Fitness consulting 
+						</p>
+					</div>
+					<nav id="menu">
+						<ul class="menu menu-d menu-desktop">
+							<li class="menu__item">
+								<a href="index.html#ex1" class="menu__link">
+									О компании
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#ex2" class="menu__link">
+									Услуги
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="index.html#ex3" class="menu__link">
+									Кейсы
+								</a>
+							</li>
+							<!-- <li class="menu__item menu__item-swipe">
+								<a href="#ex4" class="menu__link">
+									Партнерам
+								</a>
+							</li>	 -->				
+							<li class="login__item">
+								<a href="input.html" class="login__link login__link-input">
+									Войти
+								</a>
+							</li>
+							<li class="login__item">
+								<a href="#" class="login__link login__link-free" data-toggle="modal" data-target="#Mymodal1">
+									Пробная версия
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<h1 class="title">
+						<span class="title-blue">CRM</span>
+						- система, которая сокращает цикл сделки
+					</h1>
+					<p class="text1">
+						Попробуйте <span>БЕСПЛАТНО</span> в течении 20 дней <br>
+						Увеличьте свой результат прямо сейчас
+					</p>	
+					<form class="form header_form">
+						<div class="form-thanks form-thank">Ваша заявка принята!</div>
+						<input type="text" name="phone" required="" class="header_input phone-masc" placeholder="+ 7 (_ _ _) _ _ _ - _ _ - _ _   ">
+						<button type="submit" class="header_btn">Попробовать</button>
+					</form>	
+				</div>
+			</div>
+		</div>
+	</header>
+
+<section class="advantage">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-lg-5 hidden-xs hidden-sm">
+				<div class="chits">
+					<a href="index.html" class="chit_link">
+						Главная
+					</a>
+					<img src="img/arrows.png" alt="" class="arrow">
+					<a href="services.html" class="chit_link chit_link-active">
+						Услуги
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="title-section">
+					Преимущества работы с <span>MAKLER CRM</span>
+				</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div href="#" class="advantage__item advantage__item1">
+					<img src="img/puzzle.png" alt="" class="advantage-img">
+					<h3 class="advantage__title">
+						Легкая <br>
+						интеграция
+					</h3>
+					<p class="advantage__text advantage__text1">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+					<a href="#" class="awaits-item_btn advantage__btn advantage__btn1">Подробнее</a>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div href="#" class="advantage__item advantage__item2">
+					<img src="img/teamwork (1).png" alt="" class="advantage-img">
+					<h3 class="advantage__title">
+						Быстрая адаптация <br>
+						персонала
+					</h3>
+					<p class="advantage__text advantage__text2">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+					<a href="#" class="awaits-item_btn advantage__btn advantage__btn2">Подробнее</a>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div href="#" class="advantage__item advantage__item3">
+					<img src="img/link.png" alt="" class="advantage-img">
+					<h3 class="advantage__title">
+						Комплексный подход <br>
+						системы
+					</h3>
+					<p class="advantage__text advantage__text3">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+					<a href="#" class="awaits-item_btn advantage__btn advantage__btn3">Подробнее</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div href="#" class="advantage__item advantage__item4">
+					<img src="img/presentation (1).png" alt="" class="advantage-img">
+					<h3 class="advantage__title">
+						Снижение <br>
+						рутины
+					</h3>
+					<p class="advantage__text advantage__text4">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+					<a href="#" class="awaits-item_btn advantage__btn advantage__btn4">Подробнее</a>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div href="#" class="advantage__item advantage__item5">
+					<img src="img/id-card (1).png" alt="" class="advantage-img">
+					<h3 class="advantage__title">
+						Персональный <br>
+						менеджер
+					</h3>
+					<p class="advantage__text advantage__text5">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+					<a href="#" class="awaits-item_btn advantage__btn advantage__btn5">Подробнее</a>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div href="#" class="advantage__item advantage__item6">
+					<img src="img/video-player.png" alt="" class="advantage-img">
+					<h3 class="advantage__title">
+						Видео обучение <br>
+						и поддержка
+					</h3>
+					<p class="advantage__text advantage__text6">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+					<a href="#" class="awaits-item_btn advantage__btn advantage__btn6">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="services">
+	<h2 class="title-section">
+		А теперь о самом главном
+	</h2>
+	<h3 class="desc-section">
+		Инструменты ведушие к выполнению самых <br>
+		амбициозных планов продаж 
+	</h3>
+	<section class="services_item services_item1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-6">
+					<div class="services_item_number">
+						1
+					</div>
+					<p class="services_item_desc">
+						Работа с комфортом
+					</p>
+					<h4 class="services_item_title">
+						Рабочий стол
+					</h4>
+					<p class="services_item_text">
+						Для Вас и ваших сотрудников мы разработали максимально удобный «рабочий стол». Вся активность отдела показывается в одном окне, а менеджер, в свою очередь, видит, какие задачи необходимо выполнить и какое количество действий он совершил за выбранный период времени. По мимо этого, отображается сумма проданных договоров. Каждый сотрудник сможет настроить «рабочий стол» под себя: раздел активности, продаж и сделок всегда будет выглядеть так, как удобно Вам.
+						Полученные заявки никуда не пропадут - сотрудник отдела получает уведомления в виде всплывающего окна в режиме реального времени, а совершенные по заявке действия отображаются на Вашем «рабочем столе»
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services_item services_item2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="services_item_number">
+						2
+					</div>
+					<p class="services_item_desc">
+						Оперативность сделок
+					</p>
+					<h4 class="services_item_title">
+						Договора
+					</h4>
+					<p class="services_item_text">
+						Договор по сделке создаётся так же быстро, как сказать «Продано!». Все это благодаря удобному интерфейсу. В разделе «Договора» Вы можете посмотреть общее количество договоров отдела или индивидуально у каждого сотрудника. К тому же, система всегда напомнит Вам о сроках окончания договора и/или о необходимой доплате.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services_item services_item3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-6">
+					<div class="services_item_number">
+						3
+					</div>
+					<p class="services_item_desc">
+						Системность сделок
+					</p>
+					<h4 class="services_item_title">
+						Контакты
+					</h4>
+					<p class="services_item_text">
+						MAKLER CRM автоматически фиксирует все полученные заявки и создает контакт и сделку по контакту. Если контакт ранее обращался, то система уведомляет об этом, никаких дублей и удаление повторов - это прекрасно. Все ваши контакты в одном месте, при звонке в MAKLER CRM появляется карточка контакта со всей необходимой Вам информацией.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services_item services_item4">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="services_item_number">
+						4
+					</div>
+					<p class="services_item_desc">
+						Оптимизация затрат
+					</p>
+					<h4 class="services_item_title">
+						Сделки
+					</h4>
+					<p class="services_item_text">
+						У каждого рекламного канала своя конверсия, свой цикл сделки. Вы с легкостью можете создать несколько воронок продаж. Анализируйте эффективность сотрудников: кто приносит прибыль, а кто стоит на месте. Какой источник рекламы приносит прибыль, а какой просто сливает деньги. Воронка продаж сможет показать: стоимость лида, стоимость сделки, цикл сделки, сколько денег заработали и сколько упустили в этом месяце. Оптимизируйте затраты в одной системе. Измеряйте эффективность каждого действия сотрудника и заранее предотвращайте потери клиентов. Теперь это стало проще!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services_item services_item5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-6">
+					<div class="services_item_number">
+						5
+					</div>
+					<p class="services_item_desc">
+						Своевременные уведомления
+					</p>
+					<h4 class="services_item_title">
+						Автоматические действия
+					</h4>
+					<p class="services_item_text">
+						Настройте шаги воронки так, чтобы при поступлении новой заявки или звонка система автоматически распределяла по свободному-активному сотруднику, а позже отправляла на почту клиента продающее письмо. Далее на шаг воронки “Встреча проведена” можно настроить отправку SMS с акцией «только 3 дня, персональные условия» с возможностью оплатить online. Менеджеру автоматически ставится задача перезвонить через 2 дня. Если шаг воронки у заявки не меняется больше, чем 24 часа, то система будет напоминать сотруднику про необходимое действие в отношении клиента до тех пор, пока оно не будет совершено.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services_item services_item6">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="services_item_number">
+						6
+					</div>
+					<p class="services_item_desc">
+						Легкая интеграция
+					</p>
+					<h4 class="services_item_title">
+						Настройка CRM системы под 
+						вашу сферу 60 мин
+					</h4>
+					<p class="services_item_text">
+						Настройте CRM под Вашу сферу бизнеса за 60 минут. А самое главное - плавный перенос базы действующих клиентов без потерь. Ни одни Ваш клиент не будет упущен!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</section>
+	
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-lg-3">
+				<a href="#" class="logo logo_down">	
+						<img src="img/logo.png" alt="Makler" class="logo-img">
+					</a>
+			</div>
+			<div class="col-md-3 col-lg-4"></div>
+			<div class="col-md-6 col-lg-5">
+				<ul class="menu menu-down menu-desktop">
+							<li class="menu__item">
+								<a href="index.html" class="menu__link">
+									О компании
+								</a>
+							</li>
+							<li class="menu__item menu__item-swipe">
+								<a href="services.html" class="menu__link">
+									Услуги
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="project.html" class="menu__link">
+									Кейсы
+								</a>
+							</li>
+							<!-- <li class="menu__item menu__item-swipe">
+								<a href="#ex4" class="menu__link">
+									Партнерам
+								</a>
+							</li>	 -->										
+					</ul>
+			</div>
+		</div>
+	</div>
+	<div class="line-gray-t line-gray-t_footer"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<a href="#" class="config">
+					Политика конфиденциальности
+				</a>
+			</div>
+			<div class="col-md-9">
+					<div class="information-block">
+						<span class="information__icon">
+							<i class="fas fa-map-marker-alt"></i>
+						</span>
+						<p class="information__desc" style="margin-top: 10px">
+							<a href="#">
+								г. Москва, Варшавское <br> шоссе, д.1, стр. 1-2
+							</a>
+						</p>
+					</div>
+					<div class="information-block">
+						<span class="information__icon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+						<p class="information__desc information__desc-yellow">
+							<a href="#">
+								support@maklercrm.ru
+							</a>
+						</p>
+					</div>
+					<div class="information-block">
+						<span class="information__icon">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</span>
+						<p class="information__desc">
+							<a href="tel:+74999260951">
+								+7(499) 926 09 51
+							</a>
+						</p>
+					</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<ul class="social">
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>					
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<i class="fab fa-vk"></i>
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<p class="makler_decs">
+					<span>ООО МАКЛЕР ИНН 7729492434.</span> Разработано в MAKLER Fitness consulting 
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Модальное окно -->
+	<div class="modal fade bd-example-modal-md" id="Mymodal1"  tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-md">
+	    <div class="modal-content">
+	      <h2 class="modal-title">
+	      	20 БЕСПЛАТНЫХ ДНЕЙ<br>
+					ЭФФЕКТИВНОЙ РАБОТЫ
+	      </h2>	      
+	      <form class="modal_form form">
+		      <div class="form-thank thanks-block-modal">
+		      	<h4 class="thanks-block-modal_title">Спасибо</h4>
+						Менеджер свяжется с вами<br> в течении 15 минут!
+					</div>	
+					<input type="hidden" name="" value="" class="input-hidden">
+					<p class="modal-desc-input">Название проекта</p>
+					<img src="img/modal-icon0.png" alt="" class="modal-icon modal-icon0">
+	      	<input type="text" class="modal_input modal_input-down" name="name-project" placeholder="Название проекта" required="">
+	      	<img src="img/modal-icon1.png" alt="" class="modal-icon modal-icon1">
+	      	<input type="text" class="modal_input" name="name" placeholder="Ваше имя" required="">
+					<img src="img/modal-icon2.png" alt="" class="modal-icon modal-icon2">
+	      	<input type="text" class="modal_input phone-masc" name="phone" placeholder="Ваш телефон" required="">
+					<img src="img/modal-icon3.png" alt="" class="modal-icon modal-icon3">
+	      	<input type="email" class="modal_input" name="email" placeholder="Ваш Email" required="">
+					<button class="modal_btn" type="submit">Начать сейчас</button>
+	      </form>
+	    </div>
+	  </div>
+	</div>
+	<div id="counts"></div>
+
+	<script type="text/javascript" src="js/jQueryv3.3.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.spincrement.min.js"></script>
+	<script type="text/javascript" src="js/maskedinput.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
